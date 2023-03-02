@@ -1,12 +1,12 @@
 import "./App.css";
 import MyCharts from "./MyCharts";
 import ViewPDF from './ViewPDF'
+import DisplayCharts from './DisplayCharts'
 
 function App() {
   return (
     <div className="App">
-     <p>hello</p>
-     <ViewPDF/>
+      <DisplayCharts/>
     </div>
   );
 }
